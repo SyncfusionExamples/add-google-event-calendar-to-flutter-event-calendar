@@ -1,34 +1,26 @@
-name: flutter_jsonapplication
-description: A new Flutter application.
+name: fluttergooglecalendar
+description: A new Flutter project.
 
-# The following defines the version and build number for your application.
-# A version number is three numbers separated by dots, like 1.2.43
-# followed by an optional build number separated by a +.
-# Both the version and the builder number may be overridden in flutter
-# build by specifying --build-name and --build-number, respectively.
-# In Android, build-name is used as versionName while build-number used as versionCode.
-# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
-# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
-# Read more about iOS versioning at
-# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
 version: 1.0.0+1
 
 environment:
-  sdk: ">=2.1.0 <3.0.0"
+  sdk: '>=2.18.2 <3.0.0'
 
 dependencies:
   flutter:
     sdk: flutter
-  syncfusion_flutter_calendar: ^18.3.40
-  intl: ^0.16.0
-  google_sign_in: ^4.4.6
-  googleapis_auth: ^0.2.11+1
-  googleapis: ^0.54.0
-  cupertino_icons: ^0.1.2
+  google_sign_in: ^5.4.2
+  googleapis: ^9.2.0
+  syncfusion_flutter_calendar: ^20.3.60
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
 
+  flutter_lints: ^2.0.1
+
 flutter:
+
   uses-material-design: true
