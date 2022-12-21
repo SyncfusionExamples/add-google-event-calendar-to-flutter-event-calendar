@@ -2,7 +2,9 @@
 
 A quick-start example to help you to add google calendar events to the Flutter event calendar.
 
-You can load Google events to the Syncfusion Flutter calendar using the OAuth Client ID in the Flutter event calendar.
+You can load Google events to the Syncfusion Flutter calendar using the OAuth Client ID in the Flutter event calendar. 
+
+In this example, you can get data from Google Calendar using googleAPI.Event and then load it into the Flutter calendar using the getGoogleEventsData() method.
 
 Follow the instruction in this [KB](https://www.syncfusion.com/kb/12116/how-to-add-google-calendar-events-to-the-flutter-event-calendar-sfcalendar) to load the events from the google calendar to Flutter event calendar.
 
